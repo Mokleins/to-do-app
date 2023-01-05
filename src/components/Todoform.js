@@ -3,7 +3,6 @@ import React,{ useState } from 'react'
 function Todoform(props) {
   const [input, setInput] = useState('');
 
-  console.log(props);
   const handleChange = e => {
     setInput(e.target.value);
   }
